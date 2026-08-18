@@ -1,7 +1,25 @@
 @import "tailwindcss";
 
 :root {
-  color-scheme: dark;
+  --zs-black: #000000;
+  --zs-dark: #0a0a0a;
+  --zs-panel: #111111;
+
+  --zs-green: #a3ff12;
+  --zs-green-dim: #78c800;
+
+  --zs-white: #e8e8e8;
+  --zs-muted: #737373;
+}
+
+@theme inline {
+  --color-zs-black: var(--zs-black);
+  --color-zs-dark: var(--zs-dark);
+  --color-zs-panel: var(--zs-panel);
+  --color-zs-green: var(--zs-green);
+  --color-zs-green-dim: var(--zs-green-dim);
+  --color-zs-white: var(--zs-white);
+  --color-zs-muted: var(--zs-muted);
 }
 
 html {
