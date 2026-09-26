@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
 
 :root {
   --zs-black: #000000;
@@ -8,6 +9,9 @@
   --zs-green: #a3ff12;
   --zs-green-dim: #78c800;
 
+  --zs-orange: #ff6a00;
+  --zs-orange-dim: #c94f00;
+
   --zs-white: #e8e8e8;
   --zs-muted: #737373;
 }
@@ -16,8 +20,13 @@
   --color-zs-black: var(--zs-black);
   --color-zs-dark: var(--zs-dark);
   --color-zs-panel: var(--zs-panel);
+
   --color-zs-green: var(--zs-green);
   --color-zs-green-dim: var(--zs-green-dim);
+
+  --color-zs-orange: var(--zs-orange);
+  --color-zs-orange-dim: var(--zs-orange-dim);
+
   --color-zs-white: var(--zs-white);
   --color-zs-muted: var(--zs-muted);
 }
@@ -31,4 +40,22 @@ body {
   background: #000;
   color: #fff;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.prose a {
+  color: var(--zs-green);
+  text-decoration-color: var(--zs-green-dim);
+  font-weight: 600;
+  transition:
+    color 0.2s ease,
+    text-decoration-color 0.2s ease;
+}
+
+.prose a:visited {
+  color: var(--zs-green);
+}
+
+.prose a:hover {
+  color: var(--zs-white);
+  text-decoration-color: var(--zs-green);
 }

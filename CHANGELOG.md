@@ -22,6 +22,20 @@ Use plain language to document changes. Regular acronyms are okay.
 
 ---
 
+#### Date:
+
+09-25-2026
+
+#### Engineer:
+
+Robby Wideman
+
+#### Details
+
+Added Project Foothold log pages utilizing a slug and card display/link system.
+
+---
+
 #### Date: 08-19-2026
 
 #### Engineer: Robby Wideman

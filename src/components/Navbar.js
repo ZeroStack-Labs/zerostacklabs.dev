@@ -70,11 +70,11 @@ export default function Navbar() {
             </Link>
 
             <Link
-              href="/projects"
+              href="/project_foothold"
               onClick={() => setMenuOpen(false)}
               className="block rounded px-3 py-2 transition hover:bg-[#a3ff12] hover:text-black"
             >
-              Projects
+              Project Foothold
             </Link>
 
             <Link
