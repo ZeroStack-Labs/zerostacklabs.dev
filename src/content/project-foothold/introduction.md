@@ -1,8 +1,9 @@
 ---
 title: "Introducing Project Foothold"
-description: "Building the foundation for the ZeroStack Labs homelab."
 date: "2026-09-25"
+description: "Building the foundation for the ZeroStack Labs homelab."
 image: "/img/project-foothold/introduction.png"
+author: "Robby Wideman"
 tags:
   - homelab
   - networking
@@ -18,11 +19,11 @@ The YouTube playlist for Project Foothold can be found on our [YouTube Channel](
 
 The repo for this project can be found on our [GitHub](https://github.com/ZeroStack-Labs/project_foothold). Keep in mind, this is an on-going project, and sometimes life delays progress!
 
-## The Goal
+### The Goal
 
 Our goal is to build a practical environment where we can experiment with networking, virtualization, cybersecurity, automation, and whatever else we decide to throw at it. One goal is to eventually open the lab up to trusted associates of ours to try their luck remotely - but we're a LONG way away from that right now!
 
-## Build | Break | Learn | Repeat
+### Build | Break | Learn | Repeat
 
 Learn along with us as we dive into this project!
 
@@ -33,3 +34,7 @@ Until Next Time,
   alt="Robby W"
   width="300"
 />
+
+---
+
+Find the Project Foothold repo on our <a href="https://github.com/ZeroStack-Labs/project_foothold" target="_blank" rel="noopener noreferrer">GitHub</a>.

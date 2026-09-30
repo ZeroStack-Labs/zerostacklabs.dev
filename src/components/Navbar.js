@@ -78,6 +78,14 @@ export default function Navbar() {
             </Link>
 
             <Link
+              href="/saintcon-2026-minibadge"
+              onClick={() => setMenuOpen(false)}
+              className="block rounded px-3 py-2 transition hover:bg-[#a3ff12] hover:text-black"
+            >
+              SAINTCON 2026 MiniBadge
+            </Link>
+
+            <Link
               href="/about"
               onClick={() => setMenuOpen(false)}
               className="block rounded px-3 py-2 transition hover:bg-[#a3ff12] hover:text-black"
